@@ -8,6 +8,11 @@ if __name__ == '__main__':
     # salary_emp3 is the salary of emp3
     # Gross_Salary is the total sum of all salaries paid
 
+    #simple_dict['emp4']={}
+    #simple_dict['emp4']['name'] = 'Lola'
+    #simple_dict['emp4']['salary'] = 50000
+    #print(simple_dict)
+    simple_dict['emp1']['name']='Adeloju'
     salary_emp1 = simple_dict['emp1']['salary']
     print(simple_dict['emp1']['name'] + ' salary  is ' + str(salary_emp1))
 
@@ -21,6 +26,13 @@ if __name__ == '__main__':
 
     print('The Company will pay its staff the total sum of ' + str(Gross_Salary))
     print('=======================================================================')
+
+#OR
+    total_salary = 0
+    for value in simple_dict.values():
+        total_salary = total_salary + value['salary']
+        print(total_salary)
+
 
     # Question B
     subjects = {'Physics': 82, 'Math': 65, 'history': 75}

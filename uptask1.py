@@ -16,7 +16,7 @@ def division_number():
 def sub_number():
         a = int(input("kindly enter an integer:"))
         b = int(input("kindly enter an integer:"))
-        return a * b
+        return a-b
 
 user = input("Enter Operation (*,-,+,/):")
 result ="Operation not Valid"
@@ -30,3 +30,5 @@ elif user == "/":
 elif user == "+":
     result = add_number()
 print(result)
+
+

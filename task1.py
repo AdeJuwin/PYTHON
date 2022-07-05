@@ -8,8 +8,8 @@ y= 10
 #Additional Operation
 print("User perform Addittion operation")
 z = x+y
-print("Answer to the operation is")
-print(z)
+print(f"Answer to the operation is ={z}")
+
 
 
 #Substraction Operation
